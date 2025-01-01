@@ -1,5 +1,6 @@
 package org.java.tutorial;
 
+import org.java.tutorial.legacy.EmployeeCSV;
 import org.java.tutorial.legacy.EmployeeLdap;
 
 import java.util.ArrayList;
@@ -38,6 +39,11 @@ public class EmployeeClient {
         // Imagine that the LDAP is a legacy system and we cannot change the code
         Employee employeeFromLdapAdapter = new EmployeeAdapterLdap(employeeFromLdap);
         employees.add(employeeFromLdapAdapter);
+
+        // And here's a new adapter for a new system using CSV format
+        EmployeeCSV employeeFromCSV = new EmployeeCSV("567,Sherlock,Holmes,sherlock@holmes.com");
+        Employee employeeFromCSVAdapter = new EmployeeAdapterCSV(employeeFromCSV);
+        employees.add(employeeFromCSVAdapter);
 
         return employees;
     }
