@@ -27,4 +27,8 @@ public class EmployeeAdapterLdap implements Employee {
     public String getEmail() {
         return employeeLdap.getMail();
     }
+
+    // Note that we can add a toString method here to print the object,
+    // but there is a debate on whether we should add it or not.
+    // This is an adapter, it can create a conflict with the decorator pattern.
 }
