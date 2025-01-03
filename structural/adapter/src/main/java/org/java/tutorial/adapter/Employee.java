@@ -1,4 +1,4 @@
-package org.java.tutorial;
+package org.java.tutorial.adapter;
 
 public interface Employee {
 

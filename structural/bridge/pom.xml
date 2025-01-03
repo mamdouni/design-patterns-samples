@@ -5,16 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.java.tutorial</groupId>
-        <artifactId>design-patterns-samples</artifactId>
+        <artifactId>structural</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>structural</artifactId>
-    <packaging>pom</packaging>
-
-    <modules>
-        <module>adapter</module>
-        <module>bridge</module>
-    </modules>
+    <artifactId>bridge</artifactId>
 
 </project>

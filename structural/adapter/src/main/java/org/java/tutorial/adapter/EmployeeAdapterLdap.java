@@ -1,7 +1,7 @@
-package org.java.tutorial;
+package org.java.tutorial.adapter;
 
 import lombok.AllArgsConstructor;
-import org.java.tutorial.legacy.EmployeeLdap;
+import org.java.tutorial.adapter.legacy.EmployeeLdap;
 
 @AllArgsConstructor
 public class EmployeeAdapterLdap implements Employee {

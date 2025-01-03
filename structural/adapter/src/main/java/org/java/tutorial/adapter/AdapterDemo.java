@@ -1,4 +1,4 @@
-package org.java.tutorial;
+package org.java.tutorial.adapter;
 
 import lombok.extern.slf4j.Slf4j;
 
