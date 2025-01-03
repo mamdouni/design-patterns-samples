@@ -13,4 +13,5 @@ This repository contains sample code for various design patterns. Each design pa
 - https://app.pluralsight.com/library/courses/design-patterns-java-structural/table-of-contents
 - https://app.pluralsight.com/library/courses/design-patterns-java-behavioral/table-of-contents
 - https://app.pluralsight.com/library/courses/java-se-17-creational-design-patterns/table-of-contents
+- https://refactoring.guru/design-patterns/java
 

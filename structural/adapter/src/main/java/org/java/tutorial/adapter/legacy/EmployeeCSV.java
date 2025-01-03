@@ -1,4 +1,4 @@
-package org.java.tutorial.legacy;
+package org.java.tutorial.adapter.legacy;
 
 import lombok.Getter;
 import lombok.Setter;

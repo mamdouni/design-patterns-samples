@@ -7,3 +7,4 @@ Structural design patterns are concerned with how classes and objects are compos
 
 - https://app.pluralsight.com/library/courses/design-patterns-java-structural/table-of-contents
 - https://github.com/bh5k/StructuralDesignPatterns
+- https://refactoring.guru/design-patterns/java

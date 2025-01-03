@@ -1,7 +1,7 @@
-package org.java.tutorial;
+package org.java.tutorial.adapter;
 
 import lombok.AllArgsConstructor;
-import org.java.tutorial.legacy.EmployeeCSV;
+import org.java.tutorial.adapter.legacy.EmployeeCSV;
 
 @AllArgsConstructor
 public class EmployeeAdapterCSV implements Employee {

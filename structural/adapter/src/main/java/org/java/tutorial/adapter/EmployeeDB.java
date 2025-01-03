@@ -1,4 +1,4 @@
-package org.java.tutorial;
+package org.java.tutorial.adapter;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

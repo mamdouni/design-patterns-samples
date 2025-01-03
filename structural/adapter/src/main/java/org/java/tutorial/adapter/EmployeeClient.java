@@ -1,7 +1,7 @@
-package org.java.tutorial;
+package org.java.tutorial.adapter;
 
-import org.java.tutorial.legacy.EmployeeCSV;
-import org.java.tutorial.legacy.EmployeeLdap;
+import org.java.tutorial.adapter.legacy.EmployeeCSV;
+import org.java.tutorial.adapter.legacy.EmployeeLdap;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,9 +12,11 @@ public class EmployeeClient {
 
         List<Employee> employees = getDBEmployee();
 
-        //Will not work! This is where the adapter comes into play!
-        //Employee employeeFromLdap = new EmployeeLdap("chewie", "Solo", "Han", "han@solo.com");
         EmployeeLdap employeeFromLdap = new EmployeeLdap("chewie", "Solo", "Han", "han@solo.com");
+        /*
+        Will not work! This is where the adapter comes into play!
+        employees.add(employeeFromLdap);
+         */
 
         return employees;
     }

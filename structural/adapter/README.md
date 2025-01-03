@@ -48,9 +48,11 @@ The object that interacts with the target interface.
 ## Example in Practice: Employee Adapter
 
 If you check the code in this repository, you will find a real-world example of the Adapter Design Pattern in the `adapter` directory.
-- Client : [EmployeeClient.java](src/main/java/org/java/tutorial/EmployeeClient.java)
-- Adapter : [EmployeeAdapterLdap.java](src/main/java/org/java/tutorial/EmployeeAdapterLdap.java)
-- Adaptee : [EmployeeLdap.java](src/main/java/org/java/tutorial/legacy/EmployeeLdap.java)
+- Client : [EmployeeClient.java](src/main/java/org/java/tutorial/adapter/EmployeeClient.java)
+- Adapter : [EmployeeAdapterLdap.java](src/main/java/org/java/tutorial/adapter/EmployeeAdapterLdap.java)
+- Adaptee : [EmployeeLdap.java](src/main/java/org/java/tutorial/adapter/legacy/EmployeeLdap.java)
+
+![employees.png](images/employees.png)
 
 ## Pros and Cons
 
@@ -66,3 +68,7 @@ Disadvantages:
 ## When to Use
 - When there’s a need to use an existing class, but its interface does not match the one you need.
 - When creating a reusable library that should work with other systems with different interfaces.
+
+## References
+- https://app.pluralsight.com/ilx/video-courses/clips/b0c4cab7-8525-4a29-bc73-11c10d36d489
+- https://refactoring.guru/design-patterns/adapter
